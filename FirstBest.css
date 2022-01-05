@@ -1,0 +1,273 @@
+/*Corps du Site*/
+body
+{
+    background-color: rgba(230, 233, 240, 0.938);
+    padding: 0px;
+    margin: 0px;
+}
+/*fin*/
+
+/* Ruban d'en-tete*/
+header
+{
+    color: navy;
+    background-color: rgba(230, 233, 240, 0.938);
+    height: 130px;
+    padding-top: 5px;
+    padding-left: 80px;
+    padding-right: 50px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.titre
+{
+    font-size: 25px;
+    float: left;
+    text-align: left;
+    text-transform: uppercase;
+    color: navy;
+    display: flex; 
+}
+h1
+{
+    text-align: left;
+    color: navy;
+    font-size: 35px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover 
+{
+    text-decoration: none;
+    color: skyblue;
+    font-size: 20px;  
+}
+
+.alpha
+{
+    background-color:rgb(100, 97, 97);
+    color: rgb(15, 15, 15);
+    font-size: 17px;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-align: center;
+}
+.beta
+{
+    background-color: rgb(15, 15, 15);
+    color:rgb(255, 40, 40);
+    font-size: 17px;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-align: center;
+}
+nav
+{
+    float: right;
+}
+/*fin */
+
+/*ruban du bas*/
+footer
+{
+    color: navy;
+    background-color: rgba(230, 233, 240, 0.938);
+    height: 230px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgA
+{
+    float: left;
+    padding-left: 100px;
+}
+.imgC
+{
+    float: right;
+    padding-right: 100px;
+}
+.copyright
+{
+    font-size: small;
+}
+
+/*fin*/
+
+/*Presentation*/
+article
+{
+    height: 550px;
+    width: 1103px; 
+    background-color: rgb(100, 97, 97);
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(230, 233, 240, 0.938);
+    text-align: center;
+    font-size: 50px;
+}
+.art1
+{
+    background-image: url("franklin3.jpg");
+    text-align: center;
+
+}
+.art2
+{
+    background-image: url("franklin5.jpg");
+    text-align: center;
+}
+.art3
+{
+    background-image: url(map-image.png) ;
+    font-size: 20px;
+    padding-top: 3px;
+    font-family: cursive;
+    height: 550px;
+    width: 1103px; 
+}
+input 
+{
+    font-size: 25px;
+    background-color: rgba(230, 233, 240, 0.938);
+    color: rgb(15,15,15);
+}
+textarea
+{
+    font-size: 20px;
+    background-color: rgba(230, 233, 240, 0.938);
+    color: rgb(15,15,15);
+}
+select
+{
+    font-size: 20px;
+    background-color: rgba(230, 233, 240, 0.938);
+    color: rgb(15,15,15);
+}
+option
+{
+    font-size: 20px;
+    background-color: rgba(230, 233, 240, 0.938);
+    color: rgb(15,15,15);
+}
+.bouton
+{
+    font-size: 25px;
+    background-color: rgb(15,15,15);
+    color: rgba(230, 233, 240, 0.938);
+    font-family: cursive;
+}
+.accueil
+{
+    text-align: center;
+    font-size: 74px;
+    color: rgba(230, 233, 240, 0.938);
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*fin*/
+
+/*Biographie-Formation-Interets*/
+section
+{
+    height: 600px;
+    width: 200Spx;
+    background-color: rgba(230, 233, 240, 0.938);
+}
+h2
+{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+}
+
+.gauche
+{
+    float: right;
+    height: 520px;
+    width: 290px;
+    border-radius: 50px;
+    background-color: navy;
+    opacity: 0.2;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: yellow;
+    padding-top: 30px;
+    padding-right: 10px
+    
+}
+.droite
+{
+    float: left;
+    height: 520px;
+    width: 290px;
+    border-radius: 50px;
+    background-color: navy;
+    opacity: 0.2;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: yellow;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+aside
+{
+    height: 269px;
+    width: 425px;
+    float:right;
+    border-radius: 72px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    opacity: 0.4;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+h3
+{
+    text-transform: uppercase;
+    font-size: 29px;
+}
+
+
+.un
+{
+    background-color: rgb(15, 15, 15);
+    color: rgb(100, 97, 97);
+}
+.deux
+{
+    background-color: rgb(100, 97, 97);
+    color: rgb(15, 15, 15);
+}
+.trois
+{
+    background-color: rgb(100, 97, 97);
+    color: rgb(15, 15, 15);
+}
+.quatre
+{
+    background-color: rgb(15, 15, 15);
+    color: rgb(100, 97, 97);
+}
